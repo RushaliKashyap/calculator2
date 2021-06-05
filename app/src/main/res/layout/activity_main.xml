@@ -7,8 +7,8 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <EditText
-        android:id="@+id/edittext"
+    <TextView
+        android:id="@+id/editText"
         android:layout_width="match_parent"
         android:layout_height="350dp"
         android:background="@color/black"
@@ -35,7 +35,6 @@
                 android:text="AC"
                 android:background="#CDCDFF"
                 android:textStyle="bold"
-                android:onClick="ACEvent"
                 android:layout_marginRight="1pt"
                 android:layout_height="30pt"
                 android:layout_weight="1"
@@ -47,7 +46,6 @@
             <Button
                 android:id="@+id/PlusMinus"
                 android:text="+/-"
-                android:onClick="numberEvent"
                 android:layout_marginRight="1pt"
                 android:layout_height="30pt"
                 android:layout_weight="1"
@@ -59,7 +57,6 @@
             <Button
                 android:id="@+id/btDivide"
                 android:text="/"
-                android:onClick="OperatorEvent"
                 android:layout_marginRight="1pt"
                 android:layout_height="30pt"
                 android:layout_weight="1"
@@ -71,7 +68,6 @@
             <Button
                 android:id="@+id/btMul"
                 android:text="*"
-                android:onClick="OperatorEvent"
                 android:textColor="#fff"
                 android:layout_marginRight="1pt"
                 android:layout_height="30pt"
